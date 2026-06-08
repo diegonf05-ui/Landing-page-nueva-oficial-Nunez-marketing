@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter Tight", "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-display: "Playfair Display", serif;
+  --font-hand: "Caveat", cursive;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-bg: #FAFAFA;
+  --color-brand-cobalt: #111827;
+  --color-brand-ice: #E5E7EB;
+  --color-brand-deep: #1F2937;
+  --color-brand-cyan: #2f57fb;
+  --color-brand-dark: #FFFFFF;
+}
+
+@layer utilities {
+  .noise-bg {
+    background-image: url('https://framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png');
+    background-repeat: repeat;
+    opacity: 0.04;
+  }
+}
